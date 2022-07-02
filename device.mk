@@ -340,6 +340,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayVeux \
+    CutoutRingServiceVeux \
     DialerOverlayVeux \
     FrameworksResOverlayVeux \
     SettingsOverlayVeux \
