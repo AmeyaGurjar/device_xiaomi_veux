@@ -18,9 +18,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common PixelOS
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 
-PRODUCT_NAME := aosp_veux
+PRODUCT_NAME := banana_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -32,3 +32,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="veux-user 12 SKQ1.211006.001 V13.0.9.0.SKCMIXM release-keys"
 
 BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.9.0.SKCMIXM:user/release-keys
+
+
+#Maintainer Shit
+WITH_GAPPS := true
+BANANA_BUILD_TYPE := OFFICIAL
+BANANA_MAINTAINER := AmeyaGurjar(BlackCat)
