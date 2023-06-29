@@ -13,6 +13,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_GOOGLE_TELEPHONY := false
 
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
@@ -35,9 +36,6 @@ BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.9.0.SKCMIX
 
 # GAPPS
 WITH_GAPPS := true
-
-# AOSP Dialer
-FORCE_AOSP_DIALER := true
 
 # Maintainer Shit
 BANANA_BUILD_TYPE := OFFICIAL
