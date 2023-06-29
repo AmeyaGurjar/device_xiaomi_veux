@@ -33,8 +33,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.9.0.SKCMIXM:user/release-keys
 
-
-#Maintainer Shit
+# GAPPS
 WITH_GAPPS := true
+
+# AOSP Dialer
+FORCE_AOSP_DIALER := true
+
+# Maintainer Shit
 BANANA_BUILD_TYPE := OFFICIAL
 BANANA_MAINTAINER := AmeyaGurjar(BlackCat)
