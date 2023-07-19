@@ -18,18 +18,15 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common PixelOS
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := voltage_veux
+PRODUCT_NAME := aosp_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X4 Pro 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# GAPPS
-WITH_GAPPS := true
 
 # AOSP DIALER
 TARGET_USE_GOOGLE_TELEPHONY := false
