@@ -18,9 +18,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common PixelOS
-$(call inherit-product, vendor/banana/config/common.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-PRODUCT_NAME := banana_veux
+PRODUCT_NAME := voltage_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -35,5 +35,4 @@ WITH_GAPPS := true
 TARGET_USE_GOOGLE_TELEPHONY := false
 
 # Maintainer Shit
-BANANA_BUILD_TYPE := OFFICIAL
-BANANA_MAINTAINER := AmeyaGurjar(BlackCat)
+
