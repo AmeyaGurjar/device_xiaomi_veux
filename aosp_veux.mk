@@ -17,7 +17,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common PixelOS
+# Inherit some common PixelExtended
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosp_veux
