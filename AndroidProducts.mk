@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_veux.mk
+    $(LOCAL_DIR)/aosp_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_veux-user \
-    banana_veux-userdebug \
-    banana_veux-eng
+    aosp_veux-user \
+    aosp_veux-userdebug \
+    aosp_veux-eng

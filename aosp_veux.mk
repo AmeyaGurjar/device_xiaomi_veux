@@ -17,10 +17,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common PixelOS
-$(call inherit-product, vendor/banana/config/common.mk)
+# Inherit some common PixelExtended
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := banana_veux
+PRODUCT_NAME := aosp_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -28,12 +28,8 @@ PRODUCT_MODEL := POCO X4 Pro 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# GAPPS
-WITH_GAPPS := true
-
 # AOSP DIALER
 TARGET_USE_GOOGLE_TELEPHONY := false
 
 # Maintainer Shit
-BANANA_BUILD_TYPE := OFFICIAL
-BANANA_MAINTAINER := AmeyaGurjar(BlackCat)
+
