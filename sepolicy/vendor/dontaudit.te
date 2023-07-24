@@ -21,3 +21,4 @@ dontaudit untrusted_app_all {
   qemu_sf_lcd_density_prop
   serialno_prop
 }:file read;
+dontaudit platform_app default_android_service:service_manager find;
