@@ -18,9 +18,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common PixelExtended
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_veux
+PRODUCT_NAME := potato_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -30,6 +30,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # AOSP DIALER
 TARGET_USE_GOOGLE_TELEPHONY := false
-
+WITH_GMS := true
 # Maintainer Shit
 

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_veux.mk
+    $(LOCAL_DIR)/potato_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_veux-user \
-    aosp_veux-userdebug \
-    aosp_veux-eng
+    potato_veux-user \
+    potato_veux-userdebug \
+    potato_veux-eng
