@@ -8,7 +8,7 @@
 | Chipset          | Qualcomm SM6375 Snapdragon 695G (6 nm)                          |
 | GPU              | Adreno 619                                                      |
 | Memory           | 6 GB / 8 GB                                                     |
-| Shipped Software | Android 11, MIUI 13                                             |
+| Shipped Software | Android 13, MIUI 14                                             |
 | Storage          | 128 GB / 256 GB                                                 |
 | Battery          | 5000 mAh                                                        |
 | Dimensions       | 165.1 x 76.4 x 9.3 mm (6.5 x 3.01 x 0.37 in)                    |
