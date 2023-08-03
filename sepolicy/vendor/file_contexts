@@ -80,7 +80,7 @@
 /vendor/bin/mi_thermald                                                                                                        u:object_r:mi_thermald_exec:s0
 
 # Vibrator
-/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.xiaomi                                                                u:object_r:hal_vibrator_default_exec:s0
+/vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.xiaomi_holi                                                           u:object_r:hal_vibrator_default_exec:s0
 
 # Xiaomi MAC
 /data/vendor/mac_addr(/.*)?                                                                                                    u:object_r:vendor_wifi_vendor_data_file:s0
