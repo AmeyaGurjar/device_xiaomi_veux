@@ -344,7 +344,6 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayS88106BA1 \
     SettingsProviderOverlayS88107BA1 \
     SystemUIOverlayVeux \
-    SimpleDeviceConfigOverlayVeux \
     SettingsLibOverlayVeux \
     TelephonyOverlayVeux \
     WifiOverlayVeux \
