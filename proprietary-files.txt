@@ -524,6 +524,7 @@ vendor/etc/camera/model/pre_model/ldc_pre_policy
 vendor/etc/camera/model/rt_model/preview_cache
 vendor/etc/camera/model/rt_model/preview_model
 vendor/etc/camera/model/rt_model/preview_policy
+vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/com.xiaomi.dcal.wu.golden_i
 vendor/etc/camera/com.xiaomi.dcal.wu.golden_ii
 vendor/etc/camera/com.xiaomi.dcal.wu.golden_in_i
@@ -788,7 +789,8 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
-# Display SVIConfig
+# Display Configs
+vendor/etc/snapdragon_color_libs_config.xml
 vendor/etc/SVIConfig.xml
 
 # Display calibration
@@ -1043,6 +1045,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+product/etc/permissions/privapp-permissions-hotword.xml
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -1378,10 +1381,13 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/commonsysnodesconfigs.xml
+vendor/etc/perf/msm_irqbalance.conf
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
+vendor/etc/perf/powerhint.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
+vendor/etc/perf/task_profiles.json
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperfioctl.so
@@ -1485,6 +1491,7 @@ system_ext/etc/permissions/embms.xml
 system_ext/etc/permissions/privapp-permissions-qti-system-ext.xml
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_permissions.xml
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 -system_ext/framework/embmslibrary.jar
 -system_ext/framework/qcrilhook.jar
 system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so
